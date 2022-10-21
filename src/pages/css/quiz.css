@@ -1,0 +1,302 @@
+
+.profile-name {
+    color: var(--quizden-bg-dark);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .profile-email {
+    color: lightslategray;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  
+  .count-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--quizden-deep-purple);
+    margin-top: 10px;
+  }
+  
+  .count-number {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 24px;
+  }
+  
+  .tools {
+  }
+  
+  /* .tool-button {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    color: var(--quizden-light);
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--quizden-darker-purple);
+    width: 180px;
+    height: 60px;
+    margin-left: 16px;
+  } */
+  
+  .tool-button {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    color: var(--quizden-light);
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--quizden-darker-purple);
+    width: max-content;
+    height: max-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    padding: 16px 24px 16px 24px;
+  }
+  
+  .tool-button:hover {
+    background-color: crimson;
+    -webkit-transition: background-color 500ms ease-out;
+    -ms-transition: background-color 500ms ease-out;
+    transition: background-color 500ms ease-out;
+  }
+  
+  .tool-button:active {
+    background-color: var(--quizden-bg-dark);
+  }
+  
+  .grayed {
+    filter: grayscale(100%);
+    background-color: dimgray;
+  }
+  
+  /* bootstrap element  */
+  .card {
+    background: none;
+    border: none;
+  }
+  
+  /* wowowoowow */
+  .tooltip-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .tooltip-wrapper .tool-tip {
+    background-color: var(--quizden-light);
+    padding: 16px;
+    width: 240px;
+    z-index: 1;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 20px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .tooltip-wrapper:hover .tool-tip {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 600ms ease-out;
+  }
+  
+  .input-quiz-title {
+    background: none;
+    border: none;
+    width: 90%;
+    margin-right: 10px;
+  }
+  
+  .input-quiz-title:hover {
+    border-bottom: 2px solid var(--quizden-bg-dark);
+  }
+  
+  .input-quiz-title:active,
+  .input-quiz-title:focus {
+    border-bottom: 2px solid var(--quizden-deep-purple);
+  }
+  
+  .input-quiz-desc {
+    background: none;
+    border: none;
+    width: 70%;
+  }
+  
+  .input-quiz-desc:hover {
+    border-bottom: 2px solid var(--quizden-bg-dark);
+  }
+  
+  .input-quiz-desc:active,
+  .input-quiz-desc:focus {
+    border-bottom: 2px solid var(--quizden-deep-purple);
+  }
+  
+  input:focus,
+  select:focus,
+  button:focus {
+    outline: none;
+  }
+  
+  .input-question-title {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-right: 10px;
+  }
+  
+
+  
+
+  
+  .option-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  
+  .option-dropdown {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--quizden-darker-purple);
+    background: none;
+    border-radius: 5px;
+    width: 10em;
+  }
+  
+  .option-section {
+    margin: 2px;
+  }
+  
+  .option-label {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--quizden-darker-purple);
+    background: none;
+    border-radius: 5px;
+    margin-top: 8px;
+  }
+  .option-input {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    background-color: white;
+    letter-spacing: 0.03em;
+    border-radius: 5px;
+    width: calc(44vw);
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    width: 390px;
+  }
+  
+  .maincontainer{
+    height: max-content;
+    width: auto;
+    margin-bottom: 400px;
+  }
+
+  
+  .remove-button {
+    width: max-content;
+    height: max-content;
+    background-color: var(--quizden-deep-purple);
+    border: none;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: var(--quizden-light);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .remove-button:hover {
+    background-color: crimson;
+  }
+  .remove-button:active {
+    background-color: darkred;
+  }
+  
+  .add-button {
+    width: max-content;
+    height: max-content;
+    background-color: var(--quizden-deep-purple);
+    border: none;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: var(--quizden-light);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: var(--quizden-darker-purple);
+  }
+  .add-button:active {
+    background-color: var(--quizden-bg-dark);
+  }
+  
+  .remove-option-button {
+    width: max-content;
+    height: max-content;
+    background: none;
+    border: none;
+    margin-top: 0.8em;
+  }
+  
+  .remove-option-button:hover {
+    transform: scale(1.2);
+  }
+  .remove-option-button:active {
+    transform: scale(1);
+    filter: invert();
+  }
+  
+  .select-answer-dropdown {
+    width: 8em;
+    height: max-content;
+    background-color: var(--quizden-deep-purple);
+    border: none;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: var(--quizden-light);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .curated-quiz-section {
+    margin-left: 8.37vw;
+    width: 85.8vw;
+    min-width: max-content;
+  }
+  
+  table {
+    counter-reset: tableCount;
+  }
+  
+  .counterCell:before {
+    content: counter(tableCount);
+    counter-increment: tableCount;
+  }
+  
+  .quiz-code-input {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--quizden-light);
+    border-radius: 4px;
+    border-style: none;
+    background-color: #443e47;
+    width: 50%;
+    height: max-content;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 6px;
+    padding: 29px 24px 29px 24px;
+  }
+  

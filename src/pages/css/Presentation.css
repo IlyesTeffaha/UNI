@@ -1,0 +1,11 @@
+.fullwidth{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 10px;
+}
+
+.navbarflex{
+    display: flex;
+    align-items: baseline;
+    margin-top: 25px;
+}

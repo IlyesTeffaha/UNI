@@ -1,0 +1,550 @@
+
+[
+{
+"universitid":1 ,
+"universityname":"Carthage University ",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"Faculty of Juridical, Political and Social Sciences, Tunis"
+},
+{
+"facultyid":2,
+"facultyname":"Faculty of Sciences, Bizerte"
+},
+{
+"facultyid":3,
+"facultyname":"Faculty of Economic Sciences and Management, Nabeul"
+},
+{
+"facultyid":4,
+"facultyname":"National School of Architecture and Urbanism, Tunis"
+},
+{
+"facultyid":5,
+"facultyname":"Tunisia Polytechnic School"
+},
+{
+"facultyid":6,
+"facultyname":"Higher School of Technology and Computer Science"
+},
+{
+"facultyid":7,
+"facultyname":"Higher School of Statistics and Information Analysis"
+},
+{
+"facultyid":8,
+"facultyname":"The Gammarth Higher Institute of Audiovisual and Film Studies"
+},
+{
+"facultyid":9,
+"facultyname":"Bizerte Preparatory Engineering Institute"
+},
+{
+"facultyid":10,
+"facultyname":"Institute of Advanced Business Studies, Carthage"
+},
+{
+"facultyid":11,
+"facultyname":"National Institute of Applied Science and Technology"
+},
+{
+"facultyid":12,
+"facultyname":"Higher Institute of Applied Sciences and Technology, Mateur"
+},
+{
+"facultyid":13,
+"facultyname":"Nabeul Preparatory Engineering Institute"
+},
+{
+"facultyid":14,
+"facultyname":"Preparatory Institute for Scientific and Technical Studies, La Marsa"
+},
+{
+"facultyid":15,
+"facultyname":"Higher Institute of Fine Arts, Nabeul"
+},
+{
+"facultyid":16,
+"facultyname":"Higher Institute of Environment, Urbanism and Building Technologies"
+},
+{
+"facultyid":17,
+"facultyname":"Higher Institute of Languages, Tunis"
+},
+{
+"facultyid":18,
+"facultyname":"Higher Institute of Applied Languages and Computer Science of Nabeul"
+},
+{
+"facultyid":19,
+"facultyname":"Higher Institute of Sciences and Technology of Environment of Borj Cedria"
+},
+{
+"facultyid":20,
+"facultyname":"Higher Institute of Business and Accountancy of Bizerte"
+},
+{
+"facultyid":21,
+"facultyname":"National Engineering School of Bizerte"
+},
+{
+"facultyid":22,
+"facultyname":"Higher School of Communication of Tunis"
+}
+
+]
+
+},
+
+{
+"universitid": 2,
+"universityname":"University of Ez-Zitouna ",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"University of Ez-Zitouna"
+}
+
+]
+
+},
+{
+"universitid": 3,
+"universityname":" Manouba University",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"National School of Computer Sciences"
+},
+{
+"facultyid":2,
+"facultyname":"Higher Institute of Multimedia Arts of Manouba"
+},
+{
+"facultyid":3,
+"facultyname":"Press and Information Sciences Institute"
+},
+{
+"facultyid":4,
+"facultyname":"Business School of Tunis"
+}
+
+]
+
+},
+{
+"universitid": 4,
+"universityname":"Tunis El Manar University ",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"Faculty of Law and Political Sciences"
+},
+{
+"facultyid":2,
+"facultyname":"Faculty of Medicine"
+},
+{
+"facultyid":3,
+"facultyname":"Faculty of Economic Sciences and Management"
+},
+{
+"facultyid":4,
+"facultyname":"Sciences' Faculty FST"
+},
+{
+"facultyid":5,
+"facultyname":"National Engineering School"
+},
+{
+"facultyid":6,
+"facultyname":"Bourguiba Institute of Modern Languages"
+},
+{
+"facultyid":7,
+"facultyname":"Preparatory Institute For Engineering Studies"
+}
+
+]
+
+},
+{
+"universitid": 5,
+"universityname":"Tunis University",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"Ecole Normale Supérieure"
+},
+{
+"facultyid":2,
+"facultyname":"Higher School of Economic and Commercial Sciences"
+},
+{
+"facultyid":2,
+"facultyname":"Higher School of Technological Sciences"
+},
+{
+"facultyid":3,
+"facultyname":"Faculty of Human and Social Sciences"
+},
+{
+"facultyid":4,
+"facultyname":"Preparatory Engineering Institute"
+},
+{
+"facultyid":5,
+"facultyname":"Higher Institute of Literary Studies and Humanities"
+},
+{
+"facultyid":6,
+"facultyname":"Higher Institute of Dramatic Arts"
+},
+{
+"facultyid":7,
+"facultyname":"Higher Institute for Youth-Club Activities and Culture"
+},
+{
+"facultyid":8,
+"facultyname":"Higher Institute of Fine Arts"
+},
+{
+"facultyid":9,
+"facultyname":"Higher Institute of Applied Studies in Humanities"
+},
+{
+"facultyid":10,
+"facultyname":"Higher Institute of Applied Studies in Humanities of Zaghouan"
+},
+{
+"facultyid":11,
+"facultyname":"Higher Institute of Management"
+},
+{
+"facultyid":12,
+"facultyname":"Higher Institute of Music"
+},
+{
+"facultyid":13,
+"facultyname":"Higher Institute of Crafts Heritage"
+},
+{
+"facultyid":14,
+"facultyname":"Tunis Business School"
+},
+{
+"facultyid":15,
+"facultyname":"National Heritage Institute "
+}
+
+
+]
+
+},
+{
+"universitid":6,
+"universityname":"University of Gabes ",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"National Engineering School of Gabes "
+},
+{
+"facultyid":2,
+"facultyname":"Higher Institute of Computer Sciences and Multimedia"
+},
+{
+"facultyid":3,
+"facultyname":"Higher Institute of Applied Biology"
+},
+{
+"facultyid":4,
+"facultyname":"Higher Institute of Juridical Studies"
+},
+{
+"facultyid":5,
+"facultyname":"Higher Institute of Arts and Crafts"
+},
+{
+"facultyid":6,
+"facultyname":"Higher Institute of Management"
+},
+{
+"facultyid":7,
+"facultyname":"Higher Institute of Languages"
+},
+{
+"facultyid":8,
+"facultyname":"Higher Institute of Applied Sciences and Technology"
+},
+{
+"facultyid":9,
+"facultyname":"Higher Institute of Water Sciences and Technologies"
+},
+{
+"facultyid":10,
+"facultyname":"Higher Institute of Industrial Systems"
+},
+{
+"facultyid":11,
+"facultyname":"Higher Institute of Applied Studies in Humanities"
+},
+{
+"facultyid":12,
+"facultyname":"National Engineering School of Gabes"
+}
+
+]
+
+},
+{
+"universitid":7,
+"universityname":"University of Gafsa",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"National Engineering School of Gafsa"
+}
+
+]
+
+},
+{
+"universitid":8 ,
+"universityname":"University of Jendouba ",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"University of Jendouba"
+}
+
+]
+
+},
+{
+"universitid":9,
+"universityname":"University of Kairouan ",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"Faculty of Arts and Humanities of Kairouan"
+},
+{
+"facultyid":2,
+"facultyname":"Higher Institute of Arts and Crafts of Kairouan"
+},
+{
+"facultyid":3,
+"facultyname":"Higher Institute of Computer Science and Management of Kairouan"
+},
+{
+"facultyid":4,
+"facultyname":"Higher Institute of Juridical and political Studies of Kairouan"
+},
+{
+"facultyid":5,
+"facultyname":"Higher Institute of Applied Sciences and Technology of Kairouan"
+},
+{
+"facultyid":6,
+"facultyname":"Higher Institute of Arts and Crafts of Kasserine"
+},
+{
+"facultyid":7,
+"facultyname":"Higher Institute of Applied Mathematics and Computer Science of Kairouan"
+},
+{
+"facultyid":8,
+"facultyname":"Higher Institute of Applied Studies in Human Sciences of Sbeitla"
+},
+{
+"facultyid":9,
+"facultyname":"Higher Institute of Arts and Crafts of Sidi Bouzid"
+}
+
+]
+
+},
+{
+"universitid":10,
+"universityname":"University of Monastir",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"Faculty of Sciences of Monastir"
+},
+{
+"facultyid":2,
+"facultyname":"Faculty of Medicine of Monastir"
+},
+{
+"facultyid":3,
+"facultyname":"Faculty of Dental Medicine of Monastir"
+},
+{
+"facultyid":4,
+"facultyname":"Faculty of Pharmacy of Monastir "
+},
+{
+"facultyid":5,
+"facultyname":"Faculty of Economics and Management of Mahdia"
+},
+{
+"facultyid":6,
+"facultyname":"National Engineering School of Monastir"
+},
+{
+"facultyid":7,
+"facultyname":"Graduate School of Health Sciences and Technologies of Monastir"
+},
+{
+"facultyid":8,
+"facultyname":"Higher Institute of Biotechnology of Monastir"
+},
+{
+"facultyid":9,
+"facultyname":"Preparatory Institute for Engineering Studies of Monastir"
+},
+{
+"facultyid":10,
+"facultyname":"Higher Institute of Computer Science and Mathematics of Monastir"
+},
+{
+"facultyid":11,
+"facultyname":"Higher Institute of Applied Languages for Business and Tourism of Moknine"
+},
+{
+"facultyid":12,
+"facultyname":"Higher Institute of Computer Science of Mahdia"
+},
+{
+"facultyid":13,
+"facultyname":"Higher Institute of Applied Science and Technology of Mahdia"
+},
+{
+"facultyid":14,
+"facultyname":"Higher Institute of Arts and Crafts of Mahdia"
+},
+{
+"facultyid":15,
+"facultyname":"Higher Institute of Applied Studies in the Humanities of Mahdia"
+},
+{
+"facultyid":16,
+"facultyname":"Higher Institute of Fashion Trades of Monastir"
+}
+
+]
+
+},
+{
+"universitid":11,
+"universityname":"University of Sfax",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"Faculty of Medicine sfax"
+},
+{
+"facultyid":2,
+"facultyname":"Faculty of Economics and Management sfax"
+},
+{
+"facultyid":3,
+"facultyname":"Faculty of Law sfax"
+},
+{
+"facultyid":4,
+"facultyname":"Faculty of Arts and Humanities sfax"
+},
+{
+"facultyid":5,
+"facultyname":"Faculty of Science sfax"
+},
+{
+"facultyid":6,
+"facultyname":"National Engineering School sfax"
+},
+{
+"facultyid":7,
+"facultyname":"Graduate School of Business sfax"
+},
+{
+"facultyid":8,
+"facultyname":"Graduate School of Science and Technology in Health sfax"
+},
+{
+"facultyid":9,
+"facultyname":"Higher Institute of Arts and Crafts sfax"
+},
+{
+"facultyid":10,
+"facultyname":"Institute of Music sfax"
+},
+{
+"facultyid":11,
+"facultyname":"Higher Institute of Computer Science and Multimedia sfax"
+},
+{
+"facultyid":12,
+"facultyname":"Higher Institute of Business Administration sfax"
+},
+{
+"facultyid":13,
+"facultyname":"Higher Institute of Sport and Physical Education sfax"
+},
+{
+"facultyid":14,
+"facultyname":"Preparatory Institute for Engineering Studies sfax"
+},
+{
+"facultyid":15,
+"facultyname":"Institute of High Business Studies sfax"
+},
+{
+"facultyid":16,
+"facultyname":"Higher Institute of Industrial Management sfax"
+},
+{
+"facultyid":17,
+"facultyname":"Higher Institute of Electronics and Communication sfax"
+},
+{
+"facultyid":18,
+"facultyname":"Higher Institute of Biotechnology sfax"
+},
+{
+"facultyid":19,
+"facultyname":"Higher Institute of Technological Studies sfax"
+},
+{
+"facultyid":20,
+"facultyname":"Institute of the Olive Tree sfax"
+},
+{
+"facultyid":21,
+"facultyname":"Biotechnology Center sfax"
+}
+
+]
+
+},
+{
+"universitid":12,
+"universityname":"University of Sousse",
+"faculties":[
+{
+"facultyid":1,
+"facultyname":"University of Sousse"
+}
+
+]
+
+}
+
+
+
+
+
+]
