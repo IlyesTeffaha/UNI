@@ -94,17 +94,17 @@ console.log(props.props)
       <Container fluid className="px-0">
         <div className="d-flex justify-content-between w-100">
           <div className="d-flex align-items-center">
-            <Form className="navbar-search">
+            {/* <Form className="navbar-search">
               <Form.Group id="topbarSearch">
                 <InputGroup className="input-group-merge search-bar">
                   <InputGroup.Text><FontAwesomeIcon icon={faSearch} /></InputGroup.Text>
                   <Form.Control type="text" placeholder="Search" />
                 </InputGroup>
               </Form.Group>
-            </Form>
+            </Form> */}
           </div>
           <Nav className="align-items-center">
-            <Dropdown as={Nav.Item} onToggle={markNotificationsAsRead} >
+            {/* <Dropdown as={Nav.Item} onToggle={markNotificationsAsRead} >
               <Dropdown.Toggle as={Nav.Link} className="text-dark icon-notifications me-lg-3">
                 <span className="icon icon-sm">
                   <FontAwesomeIcon icon={faBell} className="bell-shake" />
@@ -124,7 +124,7 @@ console.log(props.props)
                   </Dropdown.Item>
                 </ListGroup>
               </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
 
             <Dropdown as={Nav.Item}>
               <Dropdown.Toggle as={Nav.Link} className="pt-1 px-0">

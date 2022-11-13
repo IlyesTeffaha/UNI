@@ -11,7 +11,7 @@ export default () => {
   return (
     <>
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
-        <Dropdown>
+        {/* <Dropdown>
           <Dropdown.Toggle as={Button} variant="secondary" className="text-dark me-2">
             <FontAwesomeIcon icon={faPlus} className="me-2" />
             <span>New</span>
@@ -33,10 +33,10 @@ export default () => {
               <FontAwesomeIcon icon={faRocket} className="text-danger me-2" /> Subscription Plan
               </Dropdown.Item>
           </Dropdown.Menu>
-        </Dropdown>
+        </Dropdown> */}
 
         <div className="d-flex">
-          <Dropdown>
+          {/* <Dropdown>
             <Dropdown.Toggle as={Button} variant="primary">
               <FontAwesomeIcon icon={faClipboard} className="me-2" /> Reports
               <span className="icon icon-small ms-1"><FontAwesomeIcon icon={faChevronDown} /></span>
@@ -61,7 +61,7 @@ export default () => {
                 <FontAwesomeIcon icon={faRocket} className="text-success me-2" /> All Reports
               </Dropdown.Item>
             </Dropdown.Menu>
-          </Dropdown>
+          </Dropdown> */}
         </div>
       </div>
 

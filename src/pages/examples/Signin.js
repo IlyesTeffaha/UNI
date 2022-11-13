@@ -36,16 +36,27 @@ const [errorexist,setErrorexist]=useState(false)
         //set authstate to true to make login and registration dissapear
         setAuthState({username:response.data.username,id:response.data.id,status:true,scorebac:response.data.scorebac});
         if(response.data.scorebac===null){
+          setTimeout(() => { history.push(Routes.MultiStepForm.path)}, 1000);
 
-          history.push(Routes.MultiStepForm.path)
+          
     
         }else{
-          if(response.data.role==="basic")
+          
+
+          if(response.data.role==="admin")
           {
-            history.push(Routes.Settings.path)
+            setTimeout(() => { history.push(Routes.AddDiplomes.path)}, 10);
+            setTimeout(() => { window.location.reload(false)}, 15);
+
+  
+            
+
 
           }else{
-            history.push(Routes.DashboardOverview.path)
+          setTimeout(() => { history.push(Routes.Settings.path)}, 1000);
+
+            
+
 
           }
            

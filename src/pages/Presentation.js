@@ -82,9 +82,10 @@ export default () => {
 
   return (
     <>
-      <Navbar className="colornav navbar-transparent sticky-top">
+      <Navbar className="colornav navbar-transparent sticky-top navv">
         <Container className="position-relative justify-content-between px-3">
-          <Navbar.Brand as={HashLink} to="/" className="me-lg-3 d-flex align-items-center">
+          <Navbar.Brand as={HashLink} to="/" >
+            
             <Image src={logo} />
             <span className="ms-2 brand-text d-none d-md-inline">UNI</span>
           </Navbar.Brand>
@@ -106,12 +107,12 @@ export default () => {
 
        
         <div  className="backimg" >
-        <img src={backimage} alt="" />
+        <img src={backimage} alt="" className="backimage"/>
         
-            <div xs={12} className=" textonimg">
+            <div xs={12} className="bottom-left">
               <div className="react-big-icon d-none d-lg-block"><span className="fab fa-react"></span></div>
               <h1 className="fw-bolder text-secondary">UNI</h1>
-              <p className=" textcol mb-5 h5">Welcome to UNI</p>
+              <p className="textcolor">Welcome to UNI</p>
               <div className="d-flex align-items-center justify-content-center">
                 <Button variant="secondary" size="lg" as={Link} to={Routes.Signup.path} className="text-dark ">
                   Sign Up <FontAwesomeIcon icon={faExternalLinkAlt} className="d-none d-sm-inline ms-1" />
@@ -360,7 +361,7 @@ export default () => {
           </Row>
         </Container>
       </section> */}
-      <section className="section section-lg bg-white" id="download">
+      {/* <section className="section section-lg bg-white" id="download">
         <Container>
           <Row>
             <Col xs={12} lg={8}>
@@ -532,7 +533,7 @@ export default () => {
             </Col>
           </Row>
         </Container>
-      </footer>
+      </footer> */}
     </>
   );
 };

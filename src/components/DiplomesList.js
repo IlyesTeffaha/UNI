@@ -69,15 +69,15 @@ export default () => {
 
       <div className="table-settings mb-4">
         <Row className="justify-content-between align-items-center">
-          <Col xs={8} md={6} lg={3} xl={4}>
+          {/* <Col xs={8} md={6} lg={3} xl={4}>
             <InputGroup>
               <InputGroup.Text>
                 <FontAwesomeIcon icon={faSearch} />
               </InputGroup.Text>
               <Form.Control type="text" placeholder="Search" />
             </InputGroup>
-          </Col>
-          <Col xs={4} md={2} xl={1} className="ps-md-0 text-end">
+          </Col> */}
+          {/* <Col xs={4} md={2} xl={1} className="ps-md-0 text-end">
             <Dropdown as={ButtonGroup}>
               <Dropdown.Toggle split as={Button} variant="link" className="text-dark m-0 p-0">
                 <span className="icon icon-sm icon-gray">
@@ -93,7 +93,7 @@ export default () => {
                 <Dropdown.Item className="fw-bold">30</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          </Col>
+          </Col> */}
         </Row>
       </div>
  
@@ -187,7 +187,7 @@ export const TransactionsTable = () => {
           </span>
         </td>
         <td>
-          <Dropdown as={ButtonGroup}>
+          {/* <Dropdown as={ButtonGroup}>
             <Dropdown.Toggle as={Button} split variant="link" className="text-dark m-0 p-0">
               <span className="icon icon-sm">
                 <FontAwesomeIcon icon={faEllipsisH} className="icon-dark" />
@@ -204,7 +204,7 @@ export const TransactionsTable = () => {
                 <FontAwesomeIcon icon={faTrashAlt} className="me-2" /> Remove
               </Dropdown.Item>
             </Dropdown.Menu>
-          </Dropdown>
+          </Dropdown> */}
         </td>
       </tr>
       )}
@@ -219,7 +219,7 @@ export const TransactionsTable = () => {
         </Table>
         <Card.Footer className="px-3 border-0 d-lg-flex align-items-center justify-content-between">
           <Nav>
-            <Pagination className="mb-2 mb-lg-0">
+            {/* <Pagination className="mb-2 mb-lg-0">
               <Pagination.Prev>
                 Previous
               </Pagination.Prev>
@@ -231,11 +231,11 @@ export const TransactionsTable = () => {
               <Pagination.Next>
                 Next
               </Pagination.Next>
-            </Pagination>
+            </Pagination> */}
           </Nav>
-          <small className="fw-bold">
+          {/* <small className="fw-bold">
             Showing <b>{totalTransactions}</b> out of <b>25</b> entries
-          </small>
+          </small> */}
         </Card.Footer>
       </Card.Body>
       

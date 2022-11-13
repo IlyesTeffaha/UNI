@@ -8,4 +8,75 @@
     display: flex;
     align-items: baseline;
     margin-top: 25px;
+    
 }
+
+.backimg{
+    position: relative;
+  text-align: center;
+  color: white;
+
+  background-size: contain;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+
+/* Bottom left text */
+.bottom-left {
+    position:absolute;
+    margin-left: 50px;
+    color: white;
+
+
+
+  }
+  .textcolor{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .backimage{
+   
+    height:89.60vh; width:auto;
+    color: white;
+}
+
+  .navv{
+    position: relative;
+  }
