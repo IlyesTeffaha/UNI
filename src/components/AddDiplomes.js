@@ -68,32 +68,8 @@ useEffect(() => {
     setCats(res.data);
   };
   getCats();
-
 }, []);
 
-const [refresh,setRefresh]=useState()
-
-// useEffect(() => {
-// // if(refresh==true){
-
-// // }
-// console.log("refreshed")
-// }, []);
-
-// window.onload = function() {
-  
-// 	// if(!window.location.hash) {
-// 		// window.location = window.location + '#loaded';
-// 		window.location.reload();
-// 	// }
-// }
-// function refreshfct() {
-  
-//     if(refresh==true)
-//     {
-      
-//     }
-// }
 
 
 //   useEffect(()=>{

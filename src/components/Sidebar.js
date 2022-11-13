@@ -153,7 +153,7 @@ var isitadmin= authState.role==="admin";
               {isitadmin ? /*if the user is an admin show these  */(
             <>
                        
-                       {/* <NavItem title="Overview" link={Routes.DashboardOverview.path} icon={faChartPie} /> */}
+                       <NavItem title="Overview" link={Routes.DashboardOverview.path} icon={faChartPie} />
                        <NavItem title="Users" icon={faUsers} link={Routes.Transactions.path} />
 
                        <NavItem title="Diplomes" icon={faUserGraduate} link={Routes.DiplomesList.path} />

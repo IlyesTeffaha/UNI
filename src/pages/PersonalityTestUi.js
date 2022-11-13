@@ -157,9 +157,8 @@ console.log(userid)
     const res=  await axios.post("http://localhost:3001/get-filtered-diplomes",data);
     setFiltereddiplomes(res.data)
     console.log(res.data)
-    console.log(filtereddiplomes)
   
-// console.log(finaltable)
+console.log(finaltable)
   };
 
 const [qtindex,setQtindex]=useState(0);
@@ -250,8 +249,8 @@ console.log(answers)
     previous
   </Button>
   <Button   onClick={() => {
-              if (qtindex === 2) {
-                SkipTest()
+              if (qtindex === 3) {
+                SendSortedTags()
                 
               } else {
                 setQtindex(qtindex+1)
@@ -261,8 +260,6 @@ console.log(answers)
               // }
             }}> 
   {qtindex === 3 ? "Submit" : "Next"}
-
-
   </Button>
   </div>
   <div className="submitbtn">

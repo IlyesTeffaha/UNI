@@ -9,11 +9,11 @@ import { AuthContext } from "../ContextApi/AuthContext";
 import axios from 'axios'
 import AccordionComponent from "./AccordionComponent";
 import {  Country, State, City  } from "country-state-city";
-import { format } from 'date-fns'
+
 export const GeneralInfoForm = () => {
   const [username, setUsername] = useState("");
   const [birthday, setBirthday] = useState("");
-  format(new Date(2014, 1, 11), 'yyyy-MM-dd')
+
   const [occupation, setOccupation] = useState("");
 
   const [gender, setGender] = useState("");
@@ -97,7 +97,6 @@ const [chosencity, setChosencity] = useState("");
           
         },
       )
-      window.location.reload(false)
       }  
        
       // const genderSelect=()=>{
@@ -210,8 +209,7 @@ console.log(cities)
                       <Form.Control
                         required
                         type="text"
-                        value={new Date(birthday).toLocaleDateString()}
-                        
+                        value={new Date(birthday)}
                         
                         onFocus={openCalendar}
                         onChange={() => { }} />

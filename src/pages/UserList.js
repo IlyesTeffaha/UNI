@@ -60,25 +60,25 @@ export default () => {
           <h4>User list</h4>
           {/* <p className="mb-0">Your web analytics dashboard template.</p> */}
         </div>
-        {/* <div className="btn-toolbar mb-2 mb-md-0">
+        <div className="btn-toolbar mb-2 mb-md-0">
           <ButtonGroup>
             <Button variant="outline-primary" size="sm">Share</Button>
             <Button variant="outline-primary" size="sm">Export</Button>
           </ButtonGroup>
-        </div> */}
+        </div>
       </div>
 
       <div className="table-settings mb-4">
         <Row className="justify-content-between align-items-center">
-          {/* <Col xs={8} md={6} lg={3} xl={4}>
+          <Col xs={8} md={6} lg={3} xl={4}>
             <InputGroup>
               <InputGroup.Text>
                 <FontAwesomeIcon icon={faSearch} />
               </InputGroup.Text>
               <Form.Control type="text" placeholder="Search" />
             </InputGroup>
-          </Col> */}
-          {/* <Col xs={4} md={2} xl={1} className="ps-md-0 text-end">
+          </Col>
+          <Col xs={4} md={2} xl={1} className="ps-md-0 text-end">
             <Dropdown as={ButtonGroup}>
               <Dropdown.Toggle split as={Button} variant="link" className="text-dark m-0 p-0">
                 <span className="icon icon-sm icon-gray">
@@ -94,7 +94,7 @@ export default () => {
                 <Dropdown.Item className="fw-bold">30</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          </Col> */}
+          </Col>
         </Row>
       </div>
  
@@ -291,7 +291,24 @@ export const TransactionsTable = () => {
           </span>
         </td>
         <td>
-
+          <Dropdown as={ButtonGroup}>
+            <Dropdown.Toggle as={Button} split variant="link" className="text-dark m-0 p-0">
+              <span className="icon icon-sm">
+                <FontAwesomeIcon icon={faEllipsisH} className="icon-dark" />
+              </span>
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item>
+                <FontAwesomeIcon icon={faEye} className="me-2" /> View Details
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <FontAwesomeIcon icon={faEdit} className="me-2" /> Edit
+              </Dropdown.Item>
+              <Dropdown.Item className="text-danger">
+                <FontAwesomeIcon icon={faTrashAlt} className="me-2" /> Remove
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </td>
       </tr>
       )}
@@ -304,7 +321,26 @@ export const TransactionsTable = () => {
       </>
           </tbody>
         </Table>
-    
+        <Card.Footer className="px-3 border-0 d-lg-flex align-items-center justify-content-between">
+          <Nav>
+            <Pagination className="mb-2 mb-lg-0">
+              <Pagination.Prev>
+                Previous
+              </Pagination.Prev>
+              <Pagination.Item active>1</Pagination.Item>
+              <Pagination.Item>2</Pagination.Item>
+              <Pagination.Item>3</Pagination.Item>
+              <Pagination.Item>4</Pagination.Item>
+              <Pagination.Item>5</Pagination.Item>
+              <Pagination.Next>
+                Next
+              </Pagination.Next>
+            </Pagination>
+          </Nav>
+          <small className="fw-bold">
+            Showing <b>{totalTransactions}</b> out of <b>25</b> entries
+          </small>
+        </Card.Footer>
       </Card.Body>
       
     </Card>
