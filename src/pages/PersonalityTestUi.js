@@ -8,7 +8,7 @@ import img from '../media/tenor.gif'
 import img1 from '../media/saitama.png'
 import img2 from '../media/another.gif'
 import video from '../media/quizui.mp4'
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { Routes } from "../routes";
 import { AuthContext } from "../ContextApi/AuthContext";
 
@@ -38,8 +38,7 @@ function PersonalityTestUi() {
         getQuestions();
         // console.log(tags)
       }, []);
-      console.log(questions)
-
+      // console.log(questions)
 
 
 
@@ -51,7 +50,7 @@ function PersonalityTestUi() {
       //2nd step : store selected answers inside answers in the form of object with different attributes , the attributes being the questions ids and the value is the selected answer then we use object.values to create an array of the chosen answers ids
 
     const [answers,setAnswers]=useState({})
-    console.log(answers)
+    // console.log(answers)
     const array=Object.values(answers)
     // console.log(array)
 
@@ -126,7 +125,7 @@ newarray.forEach(element => {
  
   });
 
-  console.log(count+"count")
+  // console.log(count+"count")
   const keys=Object.entries(count).sort(([, v1], [, v2]) => v2 - v1)
   .reduce((obj, [k, v]) => ({
     ...obj,
@@ -141,14 +140,14 @@ newarray.forEach(element => {
 const finaltable=Object.keys(keys)
   
 
-//finaltable has only the sorted tags inside an array
-  console.log(keys)
+// finaltable has only the sorted tags inside an array
+  // console.log(keys)
 
 const {authState}=useContext(AuthContext)
 
   const userid=authState.id
 
-console.log(userid)
+// console.log(userid)
 
 
  const[filtereddiplomes,setFiltereddiplomes]=useState([]);
@@ -156,12 +155,13 @@ console.log(userid)
     const data={finaltable,userlog:answers,userid}
     const res=  await axios.post("http://localhost:3001/get-filtered-diplomes",data);
     setFiltereddiplomes(res.data)
-    console.log(res.data)
-    console.log(filtereddiplomes)
+    // console.log(res.data)
+    setResultcame(true)
+    
   
 // console.log(finaltable)
   };
-
+console.log(filtereddiplomes.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i))
 const [qtindex,setQtindex]=useState(0);
 
 
@@ -173,11 +173,51 @@ const SkipTest=()=>{
 history.push(Routes.Settings.path)
 }
 
+const[resultcame,setResultcame]=useState(false)
 
-
-console.log(answers)
-
+// console.log(answers)
+// const[filterred,setFiltered]=useState(filtereddiplomes.filter((v,i,a)=>a.findIndex(v2=>(v2.id===v.id))===i))
   return (
+    <>
+    {resultcame?(
+      <div>
+        {filtereddiplomes.map((item) => ( 
+       
+          <>
+          
+          <div className="post">
+    
+    {/* <NavLink to={`/single-blog/${value.idPost}`}>
+      <img className="postImg" src={value.image} alt="" />
+      </NavLink> */}
+      
+      <div className="postInfo">
+  
+        <Link as={Link} to={`/single-blog/${item.id}`} className="link">
+          <span className="postTitle">{item.title}</span>
+        </Link>
+        
+        <hr />
+     
+        
+               <span className="postDate">
+           {item.capacite}
+        </span>
+
+      </div>
+      <p className="postDesc">{item.faculty}</p>
+    </div>
+    <div className="submitbtn">
+  <a onClick={SkipTest}>Go to your profile</a>
+  </div>
+          
+          </>
+
+
+
+      ))}
+      </div>
+    ):(
     <div className="contaiiner-xl" >
 
     <video loop muted autoPlay playsInline className="backgroundvideo">
@@ -251,7 +291,7 @@ console.log(answers)
   </Button>
   <Button   onClick={() => {
               if (qtindex === 2) {
-                SkipTest()
+                SendSortedTags()
                 
               } else {
                 setQtindex(qtindex+1)
@@ -260,7 +300,7 @@ console.log(answers)
               //   history.push(Routes.Settings.path)
               // }
             }}> 
-  {qtindex === 3 ? "Submit" : "Next"}
+  {qtindex === 2 ? "Submit" : "Next"}
 
 
   </Button>
@@ -272,7 +312,8 @@ console.log(answers)
   </div>
 {/* <img className="qtimage" src={img} alt=""/> */}
     </div>
-    
+    )}
+    </>
   )
 }
 
